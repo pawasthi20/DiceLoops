@@ -11,7 +11,7 @@ public class Dice
 	
 	//Constructors
 	
-	public dice()
+	public Dice()
 	{
 		numRolls = 0;
 	}
@@ -29,8 +29,8 @@ public class Dice
 	{
 		numRolls = 0;
 	}
-	public int getNumRolls();
+	public int getNumRolls()
 	{
-		return roll;
+		return numRolls;
 	}
 }
